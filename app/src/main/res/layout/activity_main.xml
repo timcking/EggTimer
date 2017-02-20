@@ -39,7 +39,7 @@
         tools:textSize="72sp" />
 
     <Button
-        android:text="Go"
+        android:text="Start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/controllerButton"
@@ -48,6 +48,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="90dp"
         android:height="70dp"
-        android:width="110dp" />
+        android:width="110dp"
+        android:textSize="18sp" />
 
 </RelativeLayout>
