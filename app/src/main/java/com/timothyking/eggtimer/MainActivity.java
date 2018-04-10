@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onFinish() {
 
                     resetTimer();
-                    MediaPlayer mplayer = MediaPlayer.create(getApplicationContext(), R.raw.airhorn);
+                    MediaPlayer mplayer = MediaPlayer.create(getApplicationContext(), R.raw.alarm);
                     mplayer.start();
                 }
             }.start();
