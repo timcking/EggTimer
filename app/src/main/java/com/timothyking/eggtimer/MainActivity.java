@@ -88,8 +88,12 @@ public class MainActivity extends AppCompatActivity {
         // timerSeekBar.setProgress(30);
 
         // 60 minutes max
-        timerSeekBar.setMax(3600);
-        timerSeekBar.setProgress(300);
+        // timerSeekBar.setMax(3600);
+        // timerSeekBar.setProgress(300);
+
+        // 30 minutes max
+        timerSeekBar.setMax(1800);
+        timerSeekBar.setProgress(150);
 
         timerSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
